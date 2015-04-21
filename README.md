@@ -8,7 +8,7 @@ if (!require("pacman")) install.packages("pacman"); library(pacman)
 p_load(knitr)
 ```
 
-Create a commented R script as normal using hashline prefixes.  Caitlin Diddams from the University at Buffalo has provided the [lesson plan.R](https://github.com/trinker/spinDemo/lesson plan.R) script for this demonstration.  We simply run`spin` and a nice .md and .html file are produced.
+Create a commented R script as normal using hashline prefixes.  Caitlin Diddams from the University at Buffalo has provided the [lesson plan.R](https://github.com/trinker/spinDemo/blob/master/lesson%20plan.R) script for this demonstration.  We simply run`spin` and a nice .md and .html file are produced.
 
 ```r
 knitr::spin("lesson plan.R")
